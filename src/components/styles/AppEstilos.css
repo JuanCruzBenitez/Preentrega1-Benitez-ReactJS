@@ -1,0 +1,135 @@
+/* Estilos CSS para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+
+    /*NAVBAR*/
+
+    .margenLink{
+        color: yellowgreen;
+    }
+    nav {
+        background-color: wheat;
+        border-bottom: 1px solid black;
+    }
+    
+    .navbar-dark .navbar-toggler:focus,
+    .navbar-light .navbar-toggler:focus {
+        box-shadow: none;
+        outline: none;
+    }
+
+    
+    .dropdown-menu{
+        background-color: wheat;
+        border: 2px solid rgb(247,89,28); /*Color naranja del logo*/
+    }
+    .logo-img {
+        width: 80px;
+        height: 60px;
+    }
+
+    .logo-texto {
+        width: 120px;
+        height: 25px;
+    }
+
+    .logo-Carrito {
+        width: 20px;
+        height: 20px;
+    }
+
+    .borde-Carrito {
+        border: none;
+        background-color: wheat;
+        /*Este color,tiene que ser el mismo que el navbar*/
+    }
+
+    .ubicacionCarrito{
+        display: flex;
+        align-items: end;
+    }
+
+    /*BODY*/
+
+    .body-Titulo{
+        text-align: center;
+        margin-top: 50px;
+        color: rgb(247,89,28);
+    }
+
+}
+
+/* Estilos para pantallas más grandes */
+
+@media only screen and (min-width: 768px){
+/*NAVBAR*/
+.margenLink{
+    padding-right: 120px;
+}
+nav {
+    background-color: wheat;
+    border-bottom: 1px solid black;
+}
+
+.navbar-dark .navbar-toggler:focus,
+.navbar-light .navbar-toggler:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.dropdown-menu{
+    background-color: wheat;
+    border: 2px solid rgb(247,89,28); /*Color naranja del logo*/
+}
+
+.logo-img {
+    width: 120px;
+    height: 100px;
+}
+
+.logo-texto {
+    width: 160px;
+    height: 45px;
+}
+
+.logo-Carrito {
+    width: 30px;
+    height: 30px;
+}
+
+.borde-Carrito {
+    border: none;
+    background-color: wheat;
+    /*Este color,tiene que ser el mismo que el navbar*/
+}
+
+.contenedor {
+    display: flex; /* Crea un contenedor flexible */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    height: 100px; /* Establece una altura para el contenedor */
+  }
+  .contenedor img {
+    max-height: 100%; /* Establece la altura máxima para la imagen */
+    max-width: 100%; /* Establece el ancho máximo para la imagen */
+  }
+
+.izquierda{
+    display: flex;
+    align-items: end;
+    text-align: end;
+}
+
+
+
+
+
+
+/*BODY*/
+
+.body-Titulo{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(247,89,28);
+}
+
+}
